@@ -1,0 +1,105 @@
+/* node-sass -w stylemp.scss:../css/stylemp.css */
+body {
+  margin: 0px;
+  padding: 0px;
+  gap: 0px; }
+
+h1, h2, h3, p, li {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; }
+  header .logo {
+    margin-left: -40px; }
+  header i {
+    font-size: 30px;
+    color: black;
+    padding: 0px 15px; }
+
+.logo {
+  width: 50%;
+  padding: 1em; }
+
+.img-resto {
+  position: relative;
+  width: 100%;
+  z-index: 1; }
+  .img-resto img {
+    width: 100%; }
+
+.section-menus {
+  position: relative;
+  background-color: #f6f6f6;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding-top: 30px;
+  margin-top: -40px;
+  z-index: 3; }
+  .section-menus .section-menus-title {
+    width: 90%;
+    margin-left: 5%;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .section-menus .section-menus-title h1 {
+      font-family: 'Shrikhand', cursive; }
+  .section-menus .section-menus-cards {
+    width: 90%;
+    margin-left: 5%; }
+    .section-menus .section-menus-cards .section-menus-cards__desc {
+      margin: 30px 0px 10px 0px;
+      padding: 5px 0px;
+      font-size: 18px;
+      border-bottom: 3px solid #99E2D0;
+      width: 10%; }
+    .section-menus .section-menus-cards .section-menus-card {
+      margin-bottom: 15px;
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px 16px;
+      box-shadow: 0px 3px 5px grey; }
+      .section-menus .section-menus-cards .section-menus-card h1 {
+        font-size: 18px; }
+      .section-menus .section-menus-cards .section-menus-card .section-menu-card-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        .section-menus .section-menus-cards .section-menus-card .section-menu-card-text p {
+          font-size: 14px; }
+  .section-menus .button-order {
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    border-radius: 40px;
+    color: white;
+    padding: 10px 10px;
+    border: 0px;
+    font-size: 20px;
+    width: 50%;
+    margin: 30px 25%; }
+
+footer {
+  background-color: #353535;
+  padding: 10px 0px; }
+  footer h1 {
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    font-size: 25px;
+    padding-left: 40px; }
+  footer li {
+    color: white;
+    list-style-type: none;
+    padding-bottom: 10px; }
+  footer a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px; }
+  footer i {
+    width: 20px; }
